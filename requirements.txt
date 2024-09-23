@@ -1,0 +1,6 @@
+pyspark
+apache-airflow
+psycopg2-binary
+tweepy
+kafka-python
+boto3
