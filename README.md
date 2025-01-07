@@ -132,35 +132,10 @@ social_media_etl/
 └── setup.py
 ```
 
-## Error Handling
-
-The pipeline includes robust error handling for:
-- Reddit API rate limits
-- Kafka connection issues
-- Data processing errors
-- Network interruptions
-
 ## Monitoring
 
 - Kafka: Monitor topic lag and consumer group health
 - Spark: Track processing metrics via Spark UI
-- Logging: Comprehensive logging for all components
-
-## Future Enhancements
-
-- Apache Airflow integration for workflow orchestration
-- Real-time dashboards using Tableau
-- Additional data sources (Twitter, Steam API)
-- Advanced NLP processing
-- Cloud deployment support
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
 
 ## License
 
