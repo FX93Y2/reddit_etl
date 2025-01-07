@@ -6,3 +6,6 @@ __pycache__/
 *.csv
 *.parquet
 config/*.yml
+.env
+*.pem
+*.Identifier
