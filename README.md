@@ -4,8 +4,8 @@ A real-time data pipeline that collects, processes, and analyzes Reddit posts fr
 
 ## Overview
 
-This project implements an end-to-end ETL (Extract, Transform, Load) pipeline that:
-- Collects posts from gaming subreddits (r/gaming, r/steam, r/buildapc, r/ps5)
+This project implements an end-to-end ETL pipeline that:
+- Collects posts from a collection of subreddits
 - Streams data through Apache Kafka
 - Processes data using PySpark for sentiment analysis and engagement metrics
 - Stores processed data in Parquet format for analytics
@@ -101,6 +101,7 @@ data/processed_posts/
 ├── subreddit=steam/
 ├── subreddit=buildapc/
 └── subreddit=ps5/
+...
 ```
 
 Each partition contains:
