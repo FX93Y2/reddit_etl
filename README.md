@@ -1,6 +1,6 @@
 # Reddit Social Media ETL Pipeline
 
-A real-time data pipeline that collects, processes, and analyzes Reddit posts from gaming-related subreddits using Apache Kafka and PySpark.
+A real-time data pipeline that collects, processes, and analyzes Reddit posts from tech related subreddits using Apache Kafka and PySpark.
 
 ## Overview
 
